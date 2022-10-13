@@ -4,6 +4,7 @@ import React from 'react'
 import Header from '../../Components/Header'
 import styles from './styles'
 import HighLightTop from '../../Components/HighLightTop'
+import TopCategory from '../../Components/TopCategory'
 const Home = () => {
   return (
     <View style={styles.Home_conatiner}>
@@ -18,6 +19,7 @@ const Home = () => {
         </View>
       </View>
       <HighLightTop/>
+      <TopCategory/>
     </View>
   )
 }
